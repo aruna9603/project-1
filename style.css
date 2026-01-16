@@ -1,0 +1,50 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#form{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+#form button{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 300px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input input{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    margin-top: 10px;
+}
